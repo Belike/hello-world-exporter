@@ -70,6 +70,10 @@ ehthumbs.db
 Thumbs.db
 
 # Sensitive information
+# Note: These patterns are intentionally broad to prevent accidental commits
+# of sensitive data. If you need to commit legitimate files that match these
+# patterns (e.g., public certificates), consider using more specific paths or
+# storing them in a separate documented location.
 .env
 .env.local
 .env.production
