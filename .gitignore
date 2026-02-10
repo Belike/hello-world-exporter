@@ -71,8 +71,11 @@ Thumbs.db
 
 # Sensitive information
 .env
-.env.*
-!.env.example
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*.local
 *.key
 *.pem
 *.p12
@@ -80,9 +83,25 @@ Thumbs.db
 *.jks
 *.keystore
 *.truststore
-*secret*
-*password*
-*credentials*
-*token*
+secret.txt
+secret.json
+secret.yml
+secret.yaml
+secrets.txt
+secrets.json
+secrets.yml
+secrets.yaml
+password.txt
+password.json
+passwords.txt
+passwords.json
+credentials.txt
+credentials.json
+credentials.yml
+credentials.yaml
+token.txt
+token.json
+tokens.txt
+tokens.json
 *.crt
 *.cer
