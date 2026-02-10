@@ -22,3 +22,90 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive information
+# Note: These patterns are intentionally broad to prevent accidental commits
+# of sensitive data. If you need to commit legitimate files that match these
+# patterns (e.g., public certificates), consider using more specific paths or
+# storing them in a separate documented location.
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+secret.txt
+secret.json
+secret.yml
+secret.yaml
+secrets.txt
+secrets.json
+secrets.yml
+secrets.yaml
+password.txt
+password.json
+passwords.txt
+passwords.json
+credentials.txt
+credentials.json
+credentials.yml
+credentials.yaml
+token.txt
+token.json
+tokens.txt
+tokens.json
+*.crt
+*.cer
